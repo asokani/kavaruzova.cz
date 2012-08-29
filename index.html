@@ -21,7 +21,9 @@
           type='text/css'>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="script/modernizr.custom.27466.js"></script>
+    <!--[if IE 8]>
     <script type="text/javascript" src="script/css3-mediaqueries.js"></script>
+    <![endif]-->
     <script type="text/javascript"
             src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBazjTW__1qlc-JO32gtitMgsRVBFO9GQ8&sensor=false"></script>
     <script>
@@ -85,8 +87,6 @@
                 if (content_height - footer_height - (footer_position.top - footer_top) > 0) {
                     footer.css('top', content_height - footer_height - (footer_position.top - footer_top));
                 }
-                //$('#map').width($(window).width() - 240);
-
                 updateGoogleLogoToBeVisible();
 
                 google.maps.event.trigger(map, 'resize');
@@ -113,13 +113,13 @@
     <div class="content">
         <h1>Zastavte se ochutnat<br>výbornou, čerstvě<br>praženou kávu</h1>
 
-        <hr>
+        <div class="hr"></div>
 
         <h2>Kde nás najdete?</h2>
 
         <address>Růžová 970/7<br>Praha 1 - Nové Město<br>110 00</address>
 
-        <hr>
+        <div class="hr"></div>
 
         <h2>Otevírací doba:</h2>
 

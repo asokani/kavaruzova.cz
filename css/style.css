@@ -269,7 +269,7 @@ h2 {
     font-weight: normal;
 }
 
-hr {
+.hr {
     background: url(../images/coffee.png) no-repeat;
     width: 18px;
     height: 14px;
@@ -278,8 +278,8 @@ hr {
     margin: 40px auto;
 }
 
-hr:after,
-hr:before {
+.hr:after,
+.hr:before {
     content: "";
     width: 100px;
     position: relative;
@@ -291,7 +291,7 @@ hr:before {
     display: block;
 }
 
-hr:after {
+.hr:after {
     margin-left: 26px;
     top: 6px;
     right: 0;
