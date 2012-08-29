@@ -325,7 +325,7 @@ a:hover {
     height: 100%;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
     #map-holder,
     #map-logo {
         display: block;
