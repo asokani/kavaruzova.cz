@@ -64,7 +64,7 @@
                 var map_div = $("#map");
                 var x = map_div.width() - $(".content").width();
                 var latlng = overlay.getProjection().fromContainerPixelToLatLng(new google.maps.Point(x-x/2, map_div.height()/2));
-                map.setCenter(latlng);  
+                map.panTo(latlng);
               }
             }
             
